@@ -9,7 +9,7 @@ public class Main {
 		    System.out.println("Estrutura");
 	    }
 
-	    if(array.adiciona("De")){
+	    if(array.adiciona("De") == true){
 		    System.out.println("De");
 	    }
 
