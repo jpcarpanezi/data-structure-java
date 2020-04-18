@@ -5,18 +5,12 @@ public class Main {
     public static void main(String[] args) {
 	    Vetor array = new Vetor(10);
 
-	    if(array.adiciona("Estrutura")){
-		    //System.out.println("Estrutura");
-	    }
+	    array.adiciona("Estrutura");
+	    array.adiciona("De");
+	    array.adiciona("Dados");;
 
-	    if(array.adiciona("De")){
-		    //System.out.println("De");
-	    }
-
-	    if(array.adiciona("Dados")){
-	    	//System.out.println("Dados");
-	    }
-
-	    System.out.println(array.toString());
+	    System.out.println("Número de Elementos: " + array.tamanho());
+	    System.out.println("Elementos do Vetor: " + array.toString());
+	    System.out.println("Elemento buscado: " + array.busca(1));
     }
 }
